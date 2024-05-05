@@ -1,0 +1,31 @@
+<div class="card">
+	<h2>Login</h2>
+	<form id="login-form" class="form" [formGroup]="this.loginUserForm">
+		<div class="row">
+			<label for="email">Email:</label>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				class="form-control"
+				formControlName="email"
+			/>
+		</div>
+		<div class="row">
+			<label for="password">Password:</label>
+			<input
+				type="password"
+				id="password"
+				name="password"
+				class="form-control"
+				formControlName="password"
+			/>
+		</div>
+		<div class="row">
+			<button type="button" class="btn" (click)="onSubmit()">Login</button>
+		</div>
+	</form>
+	<div class="row">
+		<a routerLink="/register">Register</a>
+	</div>
+</div>

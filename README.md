@@ -1,0 +1,11 @@
+TODO:
+- direct messenger system
+- community profile page
+- implement live chatroom with websockets
+- watch stream page
+- user profile page
+- view users past streams page
+- user profile settings page
+- create stream page
+- browse active streams page
+- search users

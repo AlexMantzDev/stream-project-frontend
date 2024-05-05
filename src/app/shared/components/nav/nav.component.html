@@ -1,0 +1,16 @@
+<div class="nav">
+	<div class="container">
+		<div class="logo" routerLink="">LOGO</div>
+		<ul>
+			<li class="nav-btn" routerLink="">Browse</li>
+			<li class="nav-btn" routerLink="">Something</li>
+		</ul>
+
+		<app-search></app-search>
+		@if (this.isLoggedIn === false) {
+			<div class="profile-btn" routerLink="/login">Login</div>
+		} @else {
+			<div class="profile-btn" routerLink="/profile">Profile</div>
+		}
+	</div>
+</div>
